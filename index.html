@@ -5,11 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>js-mail-dadi</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    
-    
-    <script src="./js/mail.js" ></script>
-    <!-- <script src="./js/giocodadi.js" ></script> -->
+    <div class="container">
+        <!-- img dadi  -->
+        <div>
+            <img class="dadi" src="./img/dice-161376_1280.png" alt="">
+        </div>
+        <!-- sezione punteggio utente  -->
+        <div class="tuo">
+            <h2 id="nomeUtente"></h2>
+            <h5>Il tuo numero è:</h5>
+            <h3 id="ng"></h3>
+        </div>
+        <!-- img vs  -->
+        <img class="vs" src="./img/comic-vs-versus-1.png" alt="">
+        <!-- sezione punteggio computer  -->
+        <div class="pc">
+            <h2 class="pcnome"> Computer</h2>
+            <h5 >Il suo numero è:</h5>
+            <h3 id="np"></h3>
+        </div>
+        <!-- sezione Risultato  -->
+        <h1 id="risultato"></h1>
+        <!-- sezione Gioca ancora  -->
+        <input class="bottone" type="button" value="Gioca ancora!" onclick="window.location.reload()">
+    </div>
+
+    <!-- <script src="./js/mail.js" ></script> -->
+    <script src="./js/giocodadi.js" ></script>
 </body>
 </html>

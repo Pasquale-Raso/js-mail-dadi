@@ -1,0 +1,62 @@
+/*********** GENERICS  ************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: blanchedalmond;
+}
+
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+/*********** img dadi  ************/
+
+.dadi{
+    width: 300px;
+    height: auto;
+    margin-top: 40px;
+}
+
+/*********** img vs  ************/
+
+.vs{
+    width: 60px;
+    height: auto;
+}
+
+/*********** sezione punteggio utente7computer ************/
+
+.tuo, .pc{
+    display: inline-block;
+    margin: 30px;
+}
+
+#np, #ng{
+    font-size: 60px;
+}
+
+/*********** sezione Risultato  ************/
+
+#risultato{
+    font-size: 60px;
+}
+
+/*********** sezione gioca ancora  ************/
+
+.bottone{
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
