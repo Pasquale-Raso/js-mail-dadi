@@ -18,10 +18,10 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto e stampare il ri
 var nomeUtente = prompt("Come ti chiami?");
 // console.log (nome);
 
-var nGiocatore = Math.floor(Math.random()*7);
+var nGiocatore = Math.floor(Math.random()*6) + 1;
 // console.log ('Il tuo numero è:', nGiocatore);
 
-var nPc = Math.floor(Math.random()*7);
+var nPc = Math.floor(Math.random()*6) + 1;
 // console.log ('Il numero del computer è:', nPc);
 
 var ng = document.getElementById('ng');

@@ -11,6 +11,7 @@ stampa un messaggio appropriato sull’esito del controllo.
 // 3 - ricerca email scritta nella lista
 // 4 - stampa se c'è o non c'è
 
+var display = document.getElementById('display')
 
 var email = prompt('Digita la tua E-mail');
 // console.log("email digitata dall'utente: ", email);
@@ -30,3 +31,11 @@ if (flag) {
 } else {
     console.log ('non trovato');
 }
+
+display.innerText = risposta;
+
+if(flag){
+    display.innerHTML = 'benvenuto' + email;
+} else {
+        display.innerText = 'Spiacente';
+    }
